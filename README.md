@@ -1,6 +1,6 @@
 # PROJECT NAME – KFC (Kentuchy Fried Chicken)
 
-Homepage > Menu Board > Order lookup> Offers & Deals page > Contact us
+_Homepage > Menu Board > Order lookup> Offers & Deals page > Contact us_
 
 
 ### ABOUT  KFC
@@ -12,13 +12,13 @@ _KFC Corporation is a chain of fast food restaurants based in Louisville, in the
 
 ## Home Page
 
-The layout of homepage of KFC will be as shown below :
+_The layout of homepage of KFC will be as shown below :_
 
 ![](https://github.com/Tannusaini26/Secondproject-documentation/blob/main/Screenshot%202022-02-17%20224548.jpg)
 
 ## Menu Board
 
-The layout of menu board is shown below:
+_The layout of menu board is shown below:_
 
 ![](https://github.com/Tannusaini26/Secondproject-documentation/blob/main/Screenshot%202022-02-17%20224525.jpg)
 
