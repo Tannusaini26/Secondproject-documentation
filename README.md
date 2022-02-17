@@ -1,4 +1,4 @@
-# PROJECT NAME – KFC (Kentuchy Fried Chicken)
+<span style="color:red"># PROJECT NAME – KFC (Kentuchy Fried Chicken)</span>
 
 _Homepage > Menu Board > Order lookup> Offers & Deals page > Contact us_
 
