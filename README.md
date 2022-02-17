@@ -1,4 +1,4 @@
-<span style="color:red"># PROJECT NAME – KFC (Kentuchy Fried Chicken)</span>
+![#f03c15](# PROJECT NAME – KFC (Kentuchy Fried Chicken)) `#f03c15`
 
 _Homepage > Menu Board > Order lookup> Offers & Deals page > Contact us_
 
