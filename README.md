@@ -6,7 +6,7 @@ Homepage > Menu Board > Order lookup> Offers & Deals page > Contact us
 ### ABOUT  KFC
 
 
-KFC Corporation is a chain of fast food restaurants based in Louisville, in the UNITED STATES.KFC primarily sells chicken pieces, wrap, salads and sandwiches and so on while its primary focus is fried chicken.The company was founded by COLONEL HARLEND SANDERS in 1952. 
+_ KFC Corporation is a chain of fast food restaurants based in Louisville, in the UNITED STATES.KFC primarily sells chicken pieces, wrap, salads and sandwiches and so on while its primary focus is fried chicken.The company was founded by COLONEL HARLEND SANDERS in 1952. _
 
 ![](https://github.com/Tannusaini26/Secondproject-documentation/blob/main/Screenshot%202022-02-17%20224349.jpg)
 
