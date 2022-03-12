@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" href="favicon.jpg">
+  <link rel="stylesheet" href="style.css">
+  <title>KFC</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="10">
+  <!-- navbar -->
+  <nav class="navbar navbar-light navbar-fixed-top header">
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler bton" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="container">
+        <p class="cook">LET'S GET <BR>COOKIN'</BR></p> <br>
+        <p>Sign in / Sign up  &#8594 </p>
+        </div>
+
+      <ul class="navbar-nav jumbotron">
+        <li class="nav-item container">
+          <a class="nav-link" href="#">Get Help</a>
+        </li>
+        <li class="nav-item container">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item container">
+          <a class="nav-link" href="#">KFC Feedback</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Brand -->
+    <a class="navbar-brand m-auto" href="#"><img src="kfclogo.jpg" alt="KFC" id="logo"></a>
+    <i class="fas fa-inr mr-2 rupay">0</i>
+    <a href="#"><img src="bucket.png" alt="kfc bucket" class="bucket"></a>
+    <img src="moon.png" alt="darktheme" id="mode" onclick="myFunction()">
+  </nav>
+  <!-- navbar end -->
+  <div id="order">
+    <h4 id="line">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</h4>
+    <button type="button" class="btn btn-danger start">Start Order</button>
+  </div>
+<!-- hero image -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="hero1.png" alt="image1" id="img1">
+    </div>
+    <div class="carousel-item">
+      <img src="hero2.png" alt="image2" id="img2">
+    </div>
+    <div class="carousel-item">
+      <img src="hero3.jpg" alt="image3" id="img3">
+    </div>
+  </div>
+<!-- Left and right controls -->
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#demo" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</a>
+</div>
+
+<!-- crousel end -->
+<div class="free">
+  <h1 class="welcome">| | |</h1>
+  <p id="wel" >WELCOME TO KFC!</p>
+</div>
+<!-- cards -->
+<div id="box">
+  <div class="container cont">
+    <p id="category"> BROWSE CATEGORIES <hr></p>
+    <div class="card cards">
+      <img class="card-img-top cardimage" src="card1.png" alt="Card image">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead">CHICKEN BUCKETS</p>
+      </div>
+    </div>
+
+    <div class="card cards">
+      <img src="card2.avif" alt="card image" class="card-img-top cardimage">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead">BIRYANI BUCKETS</p>
+      </div>
+    </div>
+
+    <div class="card cards">
+      <img class="card-img-top cardimage" src="card3.png" alt="Card image">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead">SNACKS</p>
+      </div>
+    </div>
+
+    <div class="card cards">
+      <img class="card-img-top cardimage" src="card4.jpg" alt="Card image">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead">BURGERS</p>
+      </div>
+    </div>
+
+    <div class="card cards">
+      <img class="card-img-top cardimage" src="card5.avif" alt="Card image">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead">HOME SPECIALS</p>
+      </div>
+    </div>
+
+    <div class="card cards">
+      <img class="card-img-top cardimage" src="card6.jpg" alt="Card image">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead">BOX MEALS</p>
+      </div>
+    </div>
+
+    <div class="card cards">
+      <img class="card-img-top cardimage" src="card7.webp" alt="Card image">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead">BEVERAGES</p>
+      </div>
+    </div>
+
+    <div class="card cards">
+      <img class="card-img-top cardimage" src="card8.jpg" alt="Card image">
+      <div class="card-body carddetail">
+        <p class="card-title cardhead" id="menu">View All Menu &#8594 </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<footer id="foot">
+  <div class="container cont2">
+    <img src="footerlogo.png" alt="footerimage" id="footimg"> 
+
+    <div class="accordion mt-5" id="accordionExample">
+      <div class="card accord1">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <span class="btn btn-link btn-block text-left accord" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="one" aria-controls="collapseOne">
+              KFC Food <span><i class="arrow down"></i></span>
+            </span>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul>
+            <li><a href="#" class="accord">Menu</a></li><hr>
+            <li><a href="#" class="accord">Order Lookup</a></li><hr>
+            <li><a href="#" class="accord">Gift Card</a></li><hr>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card accord1">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <span class="btn btn-link btn-block text-left collapsed accord" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Support <span><i class="arrow down"></i></span>
+            </span>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul>
+              <li><a href="#" class="accord">Get Help</a></li><hr>
+              <li><a href="#" class="accord">Contact Us</a></li><hr>
+              <li><a href="#" class="accord">KFC Feedback</a></li><hr>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card accord1">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <span class="btn btn-link btn-block text-left collapsed accord" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Legal <span><i class="arrow down"></i></span>
+            </span>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <ul>
+              <li><a href="#" class="accord">Terms & Conditions</a></li><hr>
+              <li><a href="#" class="accord">Privacy Policy</a></li><hr>
+              <li><a href="#" class="accord">Disclaimer</a></li><hr>
+              <li><a href="#" class="accord">Caution Notice</a></li><hr>
+              </ul>
+          </div>
+        </div>
+      </div>
+    
+
+    <div class="card accord1">
+      <div class="card-header" id="headingFour">
+        <h2 class="mb-0">
+          <span class=" on btn btn-link btn-block text-left collapsed accord" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+            KFC India <span><i class="arrow down"></i></span>
+          </span>
+        </h2>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li><a href="#" class="accord">About KFC</a></li><hr>
+            <li><a href="#" class="accord">KFC Care</a></li><hr>
+            <li><a href="#" class="accord">Our Golden Past</a></li><hr>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div><br>
+    <h6 class="footlist"><i class="fas fa-map-marker-alt location"></i>Find a KFC</h6><hr>
+    <a href="www.facebook.com"><i class="fab fa-facebook icon"></i></a>
+    <a href="www.instagram.com"><i class="fab fa-instagram icon"></i></a>
+    <a href="www.twitter.com"><i class="fab fa-twitter icon"></i></a>
+  
+  </div>
+  </div> 
+  <div id="copy">
+    <hr>
+    copyright &copy KFC Corporation 2022 All Rights Reserved
+  </div>
+</footer>
+<!-- footer end -->
+  <script src="index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
