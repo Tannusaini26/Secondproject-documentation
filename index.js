@@ -1,3 +1,4 @@
+// dark/light modes
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
@@ -7,4 +8,12 @@ function myFunction() {
     else{
         mode.src = "moon.png";
     }
+}
+// coupon
+function loadcoupon(){
+    document.getElementById('coupon').style.visibility = 'visible'
+}
+
+function closecoupon(){
+    document.getElementById('coupon').style.visibility = 'hidden'
 }
